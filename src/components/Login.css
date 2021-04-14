@@ -1,0 +1,90 @@
+.login__main {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 3px;
+  font-family: Roboto, Arial, sans-serif;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.login__left {
+  background-color: #2874f0;
+  color: white;
+  height: 60vh;
+  width: 40%;
+}
+
+.login__left > h2 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.login__left > p {
+  margin-left: 30px;
+  margin-right: 20px;
+  line-height: 150%;
+  color: #dbdbdb;
+}
+
+.login__left > img {
+  position: absolute;
+  bottom: 140px;
+  margin-left: 40px;
+}
+
+.login__right > form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 40px;
+}
+
+.login__right > form > input {
+  padding: 8px 10px 10px 0;
+  width: 100%;
+  color: #000;
+  font-size: inherit;
+  background: #fff;
+  border: 0px none;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 10px;
+}
+
+.login__right > form > p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: gray;
+}
+
+.login__right > form > button {
+  background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.login__right > label {
+  margin-left: 37%;
+}
+
+.login__right > h4 {
+  padding: 40px;
+  margin-left: 20px;
+  color: #2874f0;
+  cursor: pointer;
+}

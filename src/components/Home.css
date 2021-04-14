@@ -1,0 +1,72 @@
+.home__banner {
+  display: flex;
+  background-color: #2874f0;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.home__banner__img1 {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  padding: 20px;
+}
+
+.home__banner__items {
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  margin: 10px;
+  padding: 10px;
+}
+
+.home__banner__items > img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+  /* max-height: px; */
+}
+
+.home__banner__items > img:hover {
+  transform: scale(1.2);
+}
+
+.home__banner__items > div {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", "sans-serif";
+  cursor: pointer;
+}
+
+.sbi__banner {
+  margin-top: -10px;
+  margin-left: 10px;
+  width: 98.6%;
+}
+
+.card__section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.header__option > h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home__banner {
+    display: flex;
+    width: 1180px;
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sbi__banner {
+    display: flex;
+    width: 1200px;
+  }
+}

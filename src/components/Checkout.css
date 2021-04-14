@@ -1,0 +1,171 @@
+.checkout__main {
+  display: flex;
+  justify-content: row;
+}
+.left__section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 2px;
+  width: 60%;
+}
+
+.right__section {
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 40px;
+  border-radius: 2px;
+  width: 40%;
+  height: 60%;
+  position: sticky;
+  top: 0;
+}
+
+.left__section__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: center;
+}
+
+.left__section__header > label {
+  font-size: 20px;
+  font-weight: 550;
+  margin: 20px;
+}
+
+.left__section__header > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.left__section__header > div > img {
+  margin: 20px;
+}
+
+.left__section__header > div > label {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+.left__section__products {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #f0f0f0;
+}
+.left__section__products > img {
+  max-width: 40%;
+  align-items: center;
+  margin: 20px;
+}
+
+.left__section__products > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.left__section__products > div > .prod__name {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.left__section__products > div > .prod__brand {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+
+.left__section__products > div > div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.prod__price {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.prod__pricecut {
+  text-decoration: line-through;
+  color: gray;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.prod__offer {
+  color: green;
+  font-weight: bold;
+}
+
+.button__remove {
+  margin-top: 25px;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  max-width: 200px;
+}
+
+.place__order {
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid #f0f0f0;
+  box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 10%);
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.place__order > button {
+  margin: 30px;
+  width: 40%;
+  border: none;
+  background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  border: none;
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.empty__message {
+  margin: 100px;
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+}
+
+.right__section__head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.right__section__head > label {
+  font-weight: 600;
+  color: gray;
+  margin-left: 20px;
+}
+
+.right__section__prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.right__section__2 {
+  border-bottom: 1px solid #f0f0f0;
+}

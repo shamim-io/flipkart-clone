@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #141933;
+  height: 100px;
+  align-items: center;
+}
+.footer__item {
+  display: flex;
+}
+
+.footer__text {
+  color: white;
+  margin-left: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
